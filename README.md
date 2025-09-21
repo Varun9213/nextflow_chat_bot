@@ -1,6 +1,6 @@
 # Docs Q&A Chat Assistant
 
-Demo: https://YOUR_DEPLOY_URL
+Demo: https://nextflow-chat-bot.vercel.app/
 
 ## Goal
 A small chat assistant for documentation Q&A (Nextflow-focused) + light troubleshooting.
