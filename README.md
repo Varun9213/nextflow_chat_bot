@@ -2,9 +2,6 @@
 
 Demo: https://nextflow-chat-bot.vercel.app/
 
-## Goal
-A small chat assistant for documentation Q&A (Nextflow-focused) + light troubleshooting.
-
 ## Local setup
 
 ### Backend
@@ -24,12 +21,6 @@ A small chat assistant for documentation Q&A (Nextflow-focused) + light troubles
 4. Open http://localhost:5173
 
 The frontend is configured with Vite proxy so calls to `/chat` are proxied to `http://localhost:5000`.
-
-## Deploy
-You can deploy backend (Docker) to Render / Railway / Fly / Cloud Run.
-- Build command: (for Docker) use the provided `backend/Dockerfile`
-- Set environment variables on the host: `OPENAI_API_KEY` and `MOCK_MODE` (optional)
-Frontend can be deployed to Vercel (static build) and the backend to Render; or deploy both in one service via Docker.
 
 ## API
 POST /chat
