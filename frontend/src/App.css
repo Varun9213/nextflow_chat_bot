@@ -11,8 +11,8 @@ html, body, #root {
 /* Body flex layout */
 body {
   display: flex;
-  justify-content: center; /* horizontal centering */
-  align-items: stretch;    /* fill height */
+  justify-content: center; 
+  align-items: stretch;    
   background-color: #242424;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
@@ -36,7 +36,7 @@ body {
   background-color: #343541;
   box-sizing: border-box;
   margin: 0 auto;       
-  border-radius: 16px; /* round corners of the main container */
+  border-radius: 16px; 
   overflow: hidden;
 }
 
@@ -70,22 +70,21 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 50%;           /* fixed width */
-  margin: 0 auto;       /* center horizontally */
+  width: 50%;           
+  margin: 0 auto;       
 }
 
 .message .bubble {
-  white-space: pre-wrap;    /* preserve line breaks and spacing */
-  word-wrap: break-word;    /* allow wrapping long lines */
-  overflow-x: auto;         /* horizontal scroll for long code lines */
-  max-width: 100%;          /* don’t exceed container width */
+  white-space: pre-wrap; 
+  word-wrap: break-word;    
+  overflow-x: auto;        
+  max-width: 100%;         
 }
 
-/* Individual messages with rounded corners */
 .message.user .bubble {
   background-color: #10a37f;
   color: #fff;
-  border-radius: 20px;  /* fully rounded bubble */
+  border-radius: 20px;  
   padding: 12px 16px;
   align-self: flex-end;
 }
@@ -93,7 +92,7 @@ body {
 .message.bot .bubble {
   background-color: #444654;
   color: #e5e5e5;
-  border-radius: 20px;  /* fully rounded bubble */
+  border-radius: 20px;  
   padding: 12px 16px;
   border: 1px solid #565869;
   align-self: flex-start;
@@ -106,18 +105,18 @@ body {
   padding: 12px 16px;
   border-top: 1px solid #565869;
   background-color: #40414f;
-  width: 50%;           /* same width as messages */
-  margin: 0 auto;       /* center horizontally */
+  width: 50%;           
+  margin: 0 auto;       
   box-sizing: border-box;
   position: sticky;
   bottom: 0;
-  border-radius: 16px;  /* round input container */
+  border-radius: 16px;  
 }
 
 .chat-input input {
   flex: 1;
   padding: 12px 14px;
-  border-radius: 12px;  /* round input box */
+  border-radius: 12px; 
   border: none;
   background-color: #343541;
   color: #fff;
@@ -131,7 +130,7 @@ body {
   background-color: #10a37f;
   color: #fff;
   font-weight: bold;
-  border-radius: 12px; /* round button */
+  border-radius: 12px; 
   cursor: pointer;
 }
 
@@ -143,7 +142,7 @@ body {
 @media (max-width: 600px) {
   .messages,
   .chat-input {
-    width: 90%; /* take almost full width on mobile */
+    width: 90%;
   }
 
   .chat-input input,
