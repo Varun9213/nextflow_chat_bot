@@ -12,7 +12,7 @@ A small chat assistant for documentation Q&A (Nextflow-focused) + light troubles
 2. python -m venv .venv
 3. source .venv/bin/activate
 4. pip install -r requirements.txt
-5. Open `.env` file and fill in:
+5. Create `.env` file and fill in:
    - OPENAI_API_KEY=sk-...
    - MOCK_MODE=false  # set true to run demo without API key
 6. uvicorn server:APP --reload --port 5000
