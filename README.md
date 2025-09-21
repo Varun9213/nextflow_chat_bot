@@ -69,5 +69,4 @@ Response: `{ "reply": "...", "session_id": "...", "sources": ["doc1.md"] }`
 - Sessions stored in-memory (no persistence).
 - Mock mode is provided when you don't want to expose API keys for demo.
 - Basic retrieval implemented from `backend/docs/`.
-- Backend deployed on render and frontend deployed on vercel
 
